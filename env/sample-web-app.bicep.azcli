@@ -1,0 +1,3 @@
+az group create --name rg-azure-container-apps --location "West Europe"
+az deployment group create --resource-group rg-azure-container-apps `
+    --template-file sample-web-app.bicep
